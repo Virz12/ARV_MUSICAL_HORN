@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="music-player">
+    <button onclick="playMusic('Nada 0.mp3')"></button>
+    <button onclick="playMusic('Nada 1.mp3')"></button>
+    <button onclick="playMusic('Nada 2.mp3')"></button>
+    <button onclick="playMusic('Nada 3.mp3')"></button>
+    <button onclick="playMusic('Nada 4.mp3')"></button>
+    <button onclick="playMusic('Nada 5.mp3')"></button>
+    <button onclick="playMusic('Nada 6.mp3')"></button>
+    <button onclick="playMusic('Nada 7.mp3')"></button>
+    <button onclick="playMusic('Nada 8.mp3')"></button>
+    <button onclick="playMusic('Nada 9.mp3')"></button>
+    <button onclick="playMusic('Nada 10.mp3')"></button>
+    <button onclick="playMusic('Nada 11.mp3')"></button>
+    <button onclick="playMusic('Nada 12 Koplo.mp3')"></button>
+    <button onclick="playMusic('Nada 13 Koplo.mp3')"></button>
+    <button onclick="playMusic('Nada 14 Koplo.mp3')"></button>
+    <button onclick="playMusic('Nada 15 Koplo.mp3')"></button>
+    <button onclick="playMusic('Nada 16 Koplo.mp3')"></button>
+    <button onclick="playMusic('Nada 17 Koplo.mp3')"></button>
+    <button id="pauseBtn" class="control-btn" onclick="pause()"></button>
+    <button id="increaseTempoBtn" class="control-btn" onclick="changeTempo(0.1)"></button>
+    <button id="decreaseTempoBtn" class="control-btn" onclick="changeTempo(-0.1)"></button>
+    <img src="ARV.png" alt="Tombol">
+    <audio id="audioPlayer" src=""></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
